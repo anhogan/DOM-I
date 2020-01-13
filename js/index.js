@@ -115,3 +115,23 @@ email.textContent = siteContent["contact"]["email"];
 copyright.textContent = siteContent["footer"]["copyright"];
 
 // CSS Styling
+navItem1.style.color = 'green';
+navItem2.style.color = 'green';
+navItem3.style.color = 'green';
+navItem4.style.color = 'green';
+navItem5.style.color = 'green';
+navItem6.style.color = 'green';
+
+// New Nav Items
+const newNav = document.querySelector('nav');
+const navItem7 = document.createElement('a');
+const navItem8 = document.createElement('a');
+
+navItem7.textContent = "Blog";
+navItem8.textContent = "Events";
+
+navItem7.style.color = 'green';
+navItem8.style.color = 'green';
+
+newNav.prepend(navItem7);
+newNav.appendChild(navItem8);
