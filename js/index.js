@@ -40,3 +40,48 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+// Selectors
+const nav = document.getElementsByTagName('a');
+const navbar = Array.from(nav);
+const H4 = document.getElementsByTagName('h4');
+const h4Arr = Array.from(H4);
+const paragraphs = document.getElementsByTagName('p');
+const pArr = Array.from(paragraphs);
+
+const navItem1 = navbar[0];
+const navItem2 = navbar[1];
+const navItem3 = navbar[2];
+const navItem4 = navbar[3];
+const navItem5 = navbar[4];
+const navItem6 = navbar[5];
+
+const ctaHeader = document.querySelector('h1');
+const ctaButton = document.querySelector('button');
+const ctaImage = document.querySelector('#cta-img');
+
+const featuresH4 = h4Arr[0];
+const featuresContent = pArr[0];
+const aboutH4 = h4Arr[1];
+const aboutContent = pArr[1];
+
+const middleImg = document.getElementById('middle-img');
+
+const servicesH4 = h4Arr[2];
+const servicesContent = pArr[2];
+const productH4 = h4Arr[3];
+const productContent = pArr[3];
+const visionH4 = h4Arr[4];
+const visionContent = pArr[4];
+
+const contactH4 = h4Arr[5];
+const address = pArr[5];
+const phone = pArr[6];
+const email = pArr[7];
+
+const copyright = pArr[8];
+
+// Updated HTML
+
+
+// CSS Styling
